@@ -37,3 +37,6 @@
 - **Learnings:** We built on from the previous video: learnt how agent memory works: basically instead of giving the input together what we want is to take the output and without specifically calling it out, we refer to it and perform another function. We do so by adding checkpoints and calling the reference of the output at that checkpoint when we want to call the tool on the output on a different run.
 - **Changes:** did boolean functions instead of the integer function called by the tool and added another code cell to check if memory is really taken from the first tool output or the most recent one, sure enough it's the most recent one
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/agent-memory.ipynb
+
+### Vid-8: Deployment
+- **Learnings:** Saw the video and learnt how to actually deploy the models locally and on langgraph cloud. But when I tried doing it I couldn't actually run it as deployment requires some sort of a (pretty steep)payment plan.
