@@ -32,3 +32,8 @@
 - **Learnings:** Learnt how agent works: basically works as an extension of router, where we feed the output after tool is called back to the machine instead of going to the end, and let it decide again whether to call the tool or not. We basically form a loop until the machine decides to not call the tool and go to the end. Also did the tracing on langchain.
 - **Changes:** did boolean functions instead of the integer function called by the tool
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/agent.ipynb
+
+### Vid-7: Agent Memory
+- **Learnings:** We built on from the previous video: learnt how agent memory works: basically instead of giving the input together what we want is to take the output and without specifically calling it out, we refer to it and perform another function. We do so by adding checkpoints and calling the reference of the output at that checkpoint when we want to call the tool on the output on a different run.
+- **Changes:** did boolean functions instead of the integer function called by the tool and added another code cell to check if memory is really taken from the first tool output or the most recent one, sure enough it's the most recent one
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/agent-memory.ipynb
