@@ -23,7 +23,12 @@
 - **Changes:** tried different prompts and changed the function called by tool
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/chain.ipynb
 
-### Vid-4: Router
+### Vid-5: Router
 - **Learnings:** Learnt how router works: takes a decision to return tool call or just return a normal message on the basis of our input, saw the visual demonstration of the router in the langgraph UI as well.
 - **Changes:** changed the function called by tool
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/router.ipynb
+
+### Vid-6: Agent
+- **Learnings:** Learnt how agent works: basically works as an extension of router, where we feed the output after tool is called back to the machine instead of going to the end, and let it decide again whether to call the tool or not. We basically form a loop until the machine decides to not call the tool and go to the end. Also did the tracing on langchain.
+- **Changes:** did boolean functions instead of the integer function called by the tool
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/agent.ipynb
