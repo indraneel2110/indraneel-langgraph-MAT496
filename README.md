@@ -40,3 +40,17 @@
 
 ### Vid-8: Deployment
 - **Learnings:** Saw the video and learnt how to actually deploy the models locally and on langgraph cloud. But when I tried doing it I couldn't actually run it as deployment requires some sort of a (pretty steep)payment plan.
+
+
+## MODULE 2:
+
+
+### Vid-1: State Schema
+- **Learnings:** Kind of built on from the first module about the structure and data types etc used in the graphs known as schema. Learnt about typedict dictionary and dataclass to define structured data, and also learnt about pydantic which is a data validation library and it basically checks during program execution whether the data matches the expected type.
+- **Changes:** added another node with the 2nd and 3rd one and made the probability 1/3rd of visiting each of them
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/state-schema.ipynb
+
+
+
+
+
