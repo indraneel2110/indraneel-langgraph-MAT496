@@ -50,7 +50,9 @@
 - **Changes:** added another node with the 2nd and 3rd one and made the probability 1/3rd of visiting each of them
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/state-schema.ipynb
 
-
-
+### Vid-2: State Reducers
+- **Learnings:** Learnt how to parallel execute multiple nodes using state reducers. Also learnt how to add, overwrite and delete messages in langgraph
+- **Changes:** replaced foo with 'score' and also tried out parallel execution using 3 nodes instead of 2 with different combinations
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/state-reducers.ipynb
 
 
