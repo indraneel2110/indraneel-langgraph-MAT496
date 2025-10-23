@@ -65,7 +65,8 @@
 - **Changes:** changed the messages and prompts, removed 4 messages instead of 2 and added 4 extra messages to remove to see if it works(it did), added my own langsmith trace in the end
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/trim-filter-messages.ipynb
 
-
-
-
+### Vid-5: Chatbot Summarization
+- **Learnings:** Building on from the previous videos, after using trimming-filtering, learnt how to generate the summary of the conversations(specially the things that got removed after limit defined is crossed). This allows us to retain the conversation while not wasting tokens everytime.
+- **Changes:** changed the prompts, increased summary limit to after 10 messages and removal from 4 messages onwards
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/chatbot-summarization.ipynb
 
