@@ -59,3 +59,13 @@
 - **Learnings:** Learnt how to use private state to exchange variable without affecting the graph's schema and output, also learnt how to use input/output schemas for different nodes.
 - **Changes:** used score/scratch instead of foo/baz and made changes in the input/output schema to include a node 'hint' before thinking 
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/multiple-schemas.ipynb
+
+### Vid-4: Trim-Filter-Messages
+- **Learnings:** Learnt how and why to use trimming, filtering and remove and delete reducers: to avoid high token usage and latency issues while still retaining conversation memory.
+- **Changes:** changed the messages and prompts, removed 4 messages instead of 2 and added 4 extra messages to remove to see if it works(it did), added my own langsmith trace in the end
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/trim-filter-messages.ipynb
+
+
+
+
+
