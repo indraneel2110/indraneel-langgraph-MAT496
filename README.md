@@ -70,3 +70,7 @@
 - **Changes:** changed the prompts, increased summary limit to after 10 messages and removal from 4 messages onwards
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/chatbot-summarization.ipynb
 
+### Vid-6: Chatbot External Memory
+- **Learnings:** Learnt how to make our chatbot retain memory indefinitely using external checkpointer database Sqlite. Basically advanced database backed memory helps retain conversation memory over multiple run sessions, this basically allows us to achieve probably the maximum memory retention we can.
+- **Changes:** again increased summary limit to after 10 messages and removal from 4 messages onwards to see the difference, used studio to tie it all together
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/chatbot-external-memory.ipynb
