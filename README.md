@@ -51,8 +51,11 @@
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/state-schema.ipynb
 
 ### Vid-2: State Reducers
-- **Learnings:** Learnt how to parallel execute multiple nodes using state reducers. Also learnt how to add, overwrite and delete messages in langgraph
+- **Learnings:** Learnt how to parallel execute multiple nodes using state reducers. Also learnt how to add, overwrite and delete messages in langgraph.
 - **Changes:** replaced foo with 'score' and also tried out parallel execution using 3 nodes instead of 2 with different combinations
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/state-reducers.ipynb
 
-
+### Vid-3: Multiple Schemas
+- **Learnings:** Learnt how to use private state to exchange variable without affecting the graph's schema and output, also learnt how to use input/output schemas for different nodes.
+- **Changes:** used score/scratch instead of foo/baz and made changes in the input/output schema to include a node 'hint' before thinking 
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/multiple-schemas.ipynb
