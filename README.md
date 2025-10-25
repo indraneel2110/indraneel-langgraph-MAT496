@@ -74,3 +74,12 @@
 - **Learnings:** Learnt how to make our chatbot retain memory indefinitely using external checkpointer database Sqlite. Basically advanced database backed memory helps retain conversation memory over multiple run sessions, this basically allows us to achieve probably the maximum memory retention we can.
 - **Changes:** again increased summary limit to after 10 messages and removal from 4 messages onwards to see the difference, used studio to tie it all together
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/chatbot-external-memory.ipynb
+
+
+## MODULE 3:
+
+
+### Vid-1: Streaming
+- **Learnings:** Learnt about what streaming is and how to stream our graph state, also the different streaming modes for graph state: values that streams the full state of the graph after each node is called and updates that streams the the particular state of the graph after each node is called.
+- **Changes:** did new inputs and removed and did them again and sure enough got the previous memory as part of summary, did factorial function instead of multiply and the working of ai behind calculating that was pretty interesting, we can actually see it in whole(the deduction of factorial in real time)
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/streaming-interruption.ipynb
