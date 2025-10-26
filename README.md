@@ -88,3 +88,8 @@
 - **Learnings:** Learnt how breakpoints work and how to use it in our graph, basically we use breakpoints to ask for user input before calling the tool, if the user proceeds we call the tool. Saw how to hardcode 'interrupt before' and also did it in studio.
 - **Changes:** made new boolean tools in addition to arithmetic, added them together in 'tools' node and saw how do breakpoints affect them when both are in effect
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/breakpoints.ipynb
+
+### Vid-3: Editing State and Human Feedback
+- **Learnings:** Learnt how editing state works: we can basically pass an initial input, check state and then apply a state update by passing another input, we can keep doing this until we actually call the tool. Learnt to hardcode this and also practically in studio.
+- **Changes:** made new prompts and numerous cells to test if state update works for only one new update or keeps on going till we don't stop adding updates(it works)
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/edit-state-human-feedback.ipynb
