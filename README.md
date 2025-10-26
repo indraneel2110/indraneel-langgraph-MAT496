@@ -83,3 +83,8 @@
 - **Learnings:** Learnt about what streaming is and how to stream our graph state, also the different streaming modes for graph state: values that streams the full state of the graph after each node is called and updates that streams the the particular state of the graph after each node is called.
 - **Changes:** did new inputs and removed and did them again and sure enough got the previous memory as part of summary, did factorial function instead of multiply and the working of ai behind calculating that was pretty interesting, we can actually see it in whole(the deduction of factorial in real time)
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/streaming-interruption.ipynb
+
+### Vid-2: Breakpoints
+- **Learnings:** Learnt how breakpoints work and how to use it in our graph, basically we use breakpoints to ask for user input before calling the tool, if the user proceeds we call the tool. Saw how to hardcode 'interrupt before' and also did it in studio.
+- **Changes:** made new boolean tools in addition to arithmetic, added them together in 'tools' node and saw how do breakpoints affect them when both are in effect
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/breakpoints.ipynb
