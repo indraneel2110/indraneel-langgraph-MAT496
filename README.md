@@ -98,3 +98,8 @@
 - **Learnings:** Learnt how dynamic breakpoint works: basically we define a limit instead of calling interrupt directly and if that limit is crossed, the graph breaks and no further node is called. Hardcoded this and also saw in studio how to do this: by updating the studio code.
 - **Changes:** added another node to check for 2 instances: one if len>10 and then if len>7, did the 3 possible cases in new cells
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/dynamic-breakpoints.ipynb
+
+### Vid-5: Time Travel
+- **Learnings:** Learnt how to browse history and get a previously executed output: essentialy we replay the output that we executed earlier, also saw how this differs from forking where we rerun the output instead of simply replaying it. Saw it on studio as well in detail.
+- **Changes:** prompt changes and added additional cells to do multiple operations to check if replay works as expected(it did)
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/time-travel.ipynb
