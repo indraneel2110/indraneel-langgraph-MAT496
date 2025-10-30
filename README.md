@@ -103,3 +103,12 @@
 - **Learnings:** Learnt how to browse history and get a previously executed output: essentialy we replay the output that we executed earlier, also saw how this differs from forking where we rerun the output instead of simply replaying it. Saw it on studio as well in detail.
 - **Changes:** prompt changes and added additional cells to do multiple operations to check if replay works as expected(it did)
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/time-travel.ipynb
+
+
+## MODULE 4:
+
+
+### Vid-1: Parallelization
+- **Learnings:** Learnt how parallelization works: it basically works by running parallel nodes before going to the next node. The order of traversal is random unless we use custom reducers to sort the state updates. Then basically used Tavily to use this as a practical example for an llm using wikipedia and websearch.
+- **Changes:** made 3 parallel nodes to test if it works, then made 1 node in B, 2 in C and 3 in D to see how parallelization plays out in both non custom condition and using custom reducers, made prompt changes
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/parallelization.ipynb
