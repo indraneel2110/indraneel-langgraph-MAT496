@@ -112,3 +112,8 @@
 - **Learnings:** Learnt how parallelization works: it basically works by running parallel nodes before going to the next node. The order of traversal is random unless we use custom reducers to sort the state updates. Then basically used Tavily to use this as a practical example for an llm using wikipedia and websearch.
 - **Changes:** made 3 parallel nodes to test if it works, then made 1 node in B, 2 in C and 3 in D to see how parallelization plays out in both non custom condition and using custom reducers, made prompt changes
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/parallelization.ipynb
+
+### Vid-2: Sub Graph
+- **Learnings:** Learnt how sub graphs works, their states and it's use: allows us to create and manage different states in different parts of our graph, also learnt how to add subgraphs to their parent graph and how to use reducers to prevent collision, also did tracing with langsmith.
+- **Changes:** made prompt changes and added code cell to write an example demonstrating sub graphs 
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/sub-graph.ipynb
