@@ -117,3 +117,8 @@
 - **Learnings:** Learnt how sub graphs works, their states and it's use: allows us to create and manage different states in different parts of our graph, also learnt how to add subgraphs to their parent graph and how to use reducers to prevent collision, also did tracing with langsmith.
 - **Changes:** made prompt changes and added code cell to write an example demonstrating sub graphs 
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/sub-graph.ipynb
+
+### Vid-3: Map Reduce
+- **Learnings:** Learnt how mapping works: breaking a problem into small sub problems and then parallel processing them, then we aggregate the result across the the parallelized sub tasks. Why this is need: for efficiency. Also saw demonstration on studio.
+- **Changes:** changed the jokes to add 5 funfacts and select the best out of them 
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/map-reduce.ipynb
