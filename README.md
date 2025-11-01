@@ -119,6 +119,11 @@
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/sub-graph.ipynb
 
 ### Vid-3: Map Reduce
-- **Learnings:** Learnt how mapping works: breaking a problem into small sub problems and then parallel processing them, then we aggregate the result across the the parallelized sub tasks. Why this is need: for efficiency. Also saw demonstration on studio.
+- **Learnings:** Learnt how mapping works: breaking a problem into smaller sub problems and then parallel processing them, then we aggregate the result across the the parallelized sub tasks. Why this is needed: for efficiency. Also saw demonstration on studio.
 - **Changes:** changed the jokes to add 5 funfacts and select the best out of them 
 - **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/map-reduce.ipynb
+
+### Vid-4: Research Assistant
+- **Learnings:** Tied the things I've learned so far in this module and learnt how to make a small scale research assistant using the tools taught. We basically created an agent with some analysts to research sub topics, then it interviews experts in particular fields and then it generates a report summary.
+- **Changes:** changed the research topic to financial investments, changed some prompts
+- **My code:** https://github.com/indraneel2110/indraneel-langgraph-MAT496/blob/main/research-assistant.ipynb
